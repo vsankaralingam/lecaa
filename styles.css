@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color:#333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 999px;
+  padding: 0.75rem 1.5rem;
+  border: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site-header {
+  background: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.logo h2 {
+  color: #111;
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-list a {
+  font-weight: 500;
+}
+
+.cta-btn {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  background: #fff;
+  padding: 4rem 1rem;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.hero-text {
+  max-width: 700px;
+  margin-top: 1rem;
+}
+
+.hero-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0 0 0;;
+  gap:2rem;
+}
+.hero-text{
+  max-width: 1200px;
+  font-size: 2.5rem;
+  color: #333;
+  line-height: 1.6;
+  font-weight: 650;
+}
+.stats-section {
+  padding: 4rem 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  flex: 1 1 300px;
+}
+
+.intro p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.learn-btn {
+  background:#4f46e5;
+  color: #fff;
+}
+
+
+
+.stats-grid {
+  flex: 1 1 450px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.stat-card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.cta-banner {
+  max-width: 1200px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 2rem;
+  margin: 2rem auto;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.cta-content {
+  flex: 1 1 400px;
+}
+
+.cta-content h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  background:#4f46e5;
+  color: #fff;
+}
+
+.cta-image {
+  flex: 1 1 400px;
+}
+
+.footer-card {
+  max-width: 1200px;
+  margin: 2rem auto;
+  color: #fff;
+}
+
+.footer-card .top-part {
+  background: #000;
+  color: #fff;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.2;
+  padding: 4rem 3rem;
+  border-radius: 2rem 2rem 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.left-text {
+  font-size: 4.5rem;
+  max-width: 60%;
+}
+
+.right-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.book-btn,
+.consult-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  min-width: 180px;
+  font-weight: 500;
+}
+
+.book-btn {
+  background: #3d5afe;
+  color: #fff;
+}
+
+.consult-btn {
+  background: transparent;
+  color: #fff;
+}
+
+.divider {
+  height: 1px;
+  background: #ffffff33;
+  margin: 0;
+}
+
+.bottom-part {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem;
+  background: #000;
+  color: #fff;
+  border-radius: 0 0 2rem 2rem;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.left-bottom h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.left-bottom p{
+  line-height:1.8;
+}
+.contact-info{
+  line-height:1.8;
+}
+
+.right-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: flex-end;
+  text-align: left;
+  margin:1.8rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 100px;
+}
+
+.column a {
+  color: #fff;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .hero h1,
+  .cta-content h1 {
+    font-size: 2rem;
+  }
+
+  .cta-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .right-buttons {
+    align-items: center;
+  }
+
+  .bottom-part {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .right-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
